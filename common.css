@@ -53,7 +53,7 @@
     flex-direction: row;
     justify-content: center;
 }
-/* body */
+/* Index body */
 
 /* 텍스트 박스 크기 조절 */
 input[type="text"] {
@@ -136,7 +136,7 @@ button {
 {
   text-align: center; color: #121314; font-size: 20px; font-family: Abhaya Libre SemiBold; font-weight: 600; word-wrap: break-word;
 }
-/* 추가코드 */
+/* Index페이지 하단 출력 칸 구분  */
 .frame-container {
   display: flex;
   flex-wrap: wrap;
@@ -158,6 +158,7 @@ button {
 
 .frame p {
   margin-bottom: 0;
+  white-space: pre-line;
 }
 .field ul {
   display: inline-block;
@@ -208,8 +209,18 @@ button {
   margin-bottom: 20px;
 }
 
+/* section 1 */
+.article-content {
+  flex: 2;
+  margin-left: 280px;  /* 기존 값 210px에서 20px 더 늘림 */
+}
 
 /* section3 */
+.article-content {
+  flex: 2;
+  margin-left: 250px;  /* 기존 값 210px에서 20px 더 늘림 */
+}
+
 
 /* Main Content Style */
 .main-content {

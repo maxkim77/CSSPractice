@@ -212,7 +212,7 @@ button {
 /* section 1 */
 .article-content {
   flex: 2;
-  margin-left: 280px;  /* 기존 값 210px에서 20px 더 늘림 */
+  margin-left: 230px;  /* 기존 값 210px에서 20px 더 늘림 */
 }
 
 /* section3 */
